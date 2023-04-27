@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 // Singleton class
 public class UIController : MonoBehaviour
@@ -14,6 +15,7 @@ public class UIController : MonoBehaviour
     }
 
     public TMP_Text overheatMessage;
+    public Slider heatGauge;
 
     // Start is called before the first frame update
     void Start()
